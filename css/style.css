@@ -5,6 +5,10 @@ Secondary Color (Pink): #FBBDBC;
 Supportive Color (Orange): #FF8C6B;
 Supportive Color (Light Pink): #FEDEDD; 
 */
+* {
+    box-sizing: border-box;
+  }
+
 body {
     background-color: #ffffff;
     font-family: 'Montserrat', sans-serif;
@@ -51,7 +55,7 @@ h1, h2, h3, h4 {
   }
 
   a:visited { /* visited link */
-    color: #FF8C6B;
+    color: #d86241;
   }
   a:active { /* selected link */
     color: #FBBDBC;
@@ -83,4 +87,75 @@ h1, h2, h3, h4 {
   .button.contact:hover {
     background-color: #ff7f50;
     color: #ffffff;
+  }
+
+  header {
+    background-color: #FBBDBC;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border-bottom: 3px solid #4a4a4a;
+  }
+
+  /* Layout styling */
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .row {
+    margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  }
+
+  #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+
+  #hero h1 {
+    text-align: center; /* Centers text */
+  }
+
+  .logo {
+    max-width: 250px;
+  }
+
+  header {
+    background-color: #FBBDBC;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    position: relative;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4a4a4a;
+    display: inline-block;
+    width: 100%;
+  }
+
+  nav ul li > a:visited {
+    color: #d86241
+  }
+
+  #hero {
+    background-color: #FBBDBC;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0px;
+    display: inline-block;
+    width: 100%;
   }
