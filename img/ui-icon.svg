@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="162px" height="312px" viewBox="0 0 162 312" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>UI icon</title>
+    <defs>
+        <linearGradient x1="0%" y1="28.9108849%" x2="107.827942%" y2="71.5993649%" id="linearGradient-1">
+            <stop stop-color="#FED8D6" offset="0%"></stop>
+            <stop stop-color="#D86241" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-902.000000, -215.000000)">
+            <g id="UI-icon" transform="translate(902.000000, 215.000000)">
+                <rect id="White-background" fill-opacity="0.9" fill="#FFFFFF" x="35.2173913" y="41.1318328" width="91.5652174" height="229.736334"></rect>
+                <path d="M126.782609,2.84217094e-14 C146.232637,2.48487972e-14 162,15.7673632 162,35.2173913 L162,270.868167 L162,270.868167 L126.782609,270.868167 L126.782609,2.84217094e-14 Z" id="Rectangle" fill="#FED8D6"></path>
+                <rect id="Rectangle" fill="#D86241" transform="translate(17.608696, 156.000000) rotate(180.000000) translate(-17.608696, -156.000000) " x="0" y="41.1318328" width="35.2173913" height="229.736334"></rect>
+                <path d="M42.8164007,-42.8164007 C62.2085212,-42.8164007 77.9289409,-27.095981 77.9289409,-7.70386052 L77.9289409,77.9289409 L77.9289409,77.9289409 L42.8164007,77.9289409 L42.8164007,-42.8164007 Z" id="Rectangle" fill="#FED8D6" transform="translate(60.372671, 17.556270) scale(-1, -1) rotate(90.000000) translate(-60.372671, -17.556270) "></path>
+                <path d="M63.4437299,213.44373 C82.8358504,213.44373 98.5562701,229.16415 98.5562701,248.55627 L98.5562701,340.33119 C98.5562701,359.72331 82.8358504,375.44373 63.4437299,375.44373 L63.4437299,375.44373 L63.4437299,375.44373 L63.4437299,213.44373 Z" id="Rectangle" fill="#D86241" transform="translate(81.000000, 294.443730) scale(-1, 1) rotate(90.000000) translate(-81.000000, -294.443730) "></path>
+                <ellipse id="Oval" fill="#3F3F3F" cx="81.5031056" cy="294.945338" rx="8.04968944" ry="8.02572347"></ellipse>
+                <g id="Group-5" transform="translate(49.304348, 181.581994)">
+                    <g id="Group-3">
+                        <ellipse id="Oval" fill="#D86241" cx="9.13545534" cy="1.99746347" rx="2.03010119" ry="1.99746347"></ellipse>
+                        <ellipse id="Oval" fill="#D86241" cx="1.01505059" cy="9.98731736" rx="1.01505059" ry="1"></ellipse>
+                        <ellipse id="Oval" fill="#FED8D6" cx="6.09030356" cy="11.9847808" rx="1.01505059" ry="1"></ellipse>
+                        <ellipse id="Oval" fill="#FED8D6" cx="2.03010119" cy="4.99365868" rx="1.01505059" ry="1"></ellipse>
+                    </g>
+                    <g id="Group-2" transform="translate(51.260055, 37.452440) rotate(15.000000) translate(-51.260055, -37.452440) translate(45.677277, 30.960684)">
+                        <ellipse id="Oval" fill="#D86241" cx="5.07525297" cy="0.998731736" rx="1.01505059" ry="1"></ellipse>
+                        <ellipse id="Oval" fill="#D86241" cx="9.13545534" cy="7.98985389" rx="1.01505059" ry="1"></ellipse>
+                        <ellipse id="Oval" fill="#FED8D6" cx="2.03010119" cy="10.9860491" rx="2.03010119" ry="1.99746347"></ellipse>
+                        <ellipse id="Oval" fill="#FED8D6" cx="10.1505059" cy="2.99619521" rx="1.01505059" ry="1"></ellipse>
+                    </g>
+                    <g id="Group-4" transform="translate(9.135455, 0.000000)">
+                        <path d="M36.0972162,5.62144804 C25.2384502,9.24494354 18.4520064,-7.15765761 9.35278784,3.87700455 C0.253569287,14.9116667 2.01429368,27.7212002 8.224368,34.3920555 C14.4344423,41.0629108 21.5421659,44.9862771 36.0972162,34.3920555 C50.6522665,23.7978339 46.9559822,1.99795254 36.0972162,5.62144804 Z" id="Path" fill-opacity="0.54921397" fill="#FED8D6"></path>
+                        <path d="M33.0520644,5.62144804 C22.1932984,9.24494354 15.4068546,-7.15765761 6.30763606,3.87700455 C-2.79158249,14.9116667 -1.0308581,27.7212002 5.17921622,34.3920555 C11.3892905,41.0629108 18.4970142,44.9862771 33.0520644,34.3920555 C47.6071147,23.7978339 43.9108304,1.99795254 33.0520644,5.62144804 Z" id="Path" stroke="#D86241"></path>
+                    </g>
+                </g>
+                <rect id="Rectangle" fill="url(#linearGradient-1)" x="49.3043478" y="53.170418" width="63.3913043" height="38.1221865" rx="4"></rect>
+                <g id="Group" transform="translate(49.304348, 111.356913)" fill="#3F3F3F" fill-opacity="0.797101214">
+                    <rect id="Rectangle" x="0" y="0" width="50.310559" height="5.01607717" rx="2.50803859"></rect>
+                    <rect id="Rectangle" x="0" y="11.0353698" width="50.310559" height="3.0096463" rx="1.50482315"></rect>
+                    <rect id="Rectangle" x="0" y="20.0643087" width="50.310559" height="3.0096463" rx="1.50482315"></rect>
+                    <rect id="Rectangle" x="0" y="29.0932476" width="50.310559" height="3.0096463" rx="1.50482315"></rect>
+                    <rect id="Rectangle-Copy" x="0" y="38.1221865" width="50.310559" height="3.0096463" rx="1.50482315"></rect>
+                    <rect id="Rectangle-Copy-2" x="0" y="47.1511254" width="25.1552795" height="3.0096463" rx="1.50482315"></rect>
+                </g>
+                <g id="menu" transform="translate(106.658385, 43.131833)" fill="#3F3F3F" fill-opacity="0.797101214">
+                    <rect id="Rectangle" x="0" y="0" width="6.5" height="1" rx="0.5"></rect>
+                    <rect id="Rectangle" x="0" y="2.14285714" width="13" height="1" rx="0.5"></rect>
+                    <rect id="Rectangle" x="6.5" y="4.28571429" width="6.5" height="1" rx="0.5"></rect>
+                </g>
+                <g id="Group-6" transform="translate(49.304348, 246.790997)">
+                    <rect id="Rectangle" fill-opacity="0.604984737" fill="#D86241" x="0" y="0" width="20.1242236" height="8.02572347" rx="2"></rect>
+                    <rect id="Rectangle" fill="#FED8D6" x="43.2670807" y="0" width="20.1242236" height="8.02572347" rx="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
