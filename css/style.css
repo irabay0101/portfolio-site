@@ -235,18 +235,55 @@ svg .st3 {
   animation: 3s color-change infinite alternate linear;
 }
 
-svg .st5 {
-  animation: 3s color-change infinite alternate linear;
-}
-
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
-}
-
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
-}
-
 .descWrapper {
   padding: 20px;
+}
+
+@keyframes move-1 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes move-2 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes move-3 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(3%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+svg .cloud-1 {
+  animation: move-1 15s infinite alternate-reverse;
+  fill: rgb(0, 153, 255);
+}
+
+svg .cloud-2 {
+  animation: move-2 8s infinite alternate;
+  fill: rgb(0, 153, 255);
+}
+
+svg .cloud-3 {
+  animation: move-3 10s infinite reverse;
+  fill: rgb(0, 153, 255);
 }
