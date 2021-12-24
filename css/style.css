@@ -124,13 +124,12 @@ header {
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 
 header {
   background-color: #fbbdbc;
-  text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   position: relative;
 }
@@ -138,6 +137,7 @@ header {
 nav ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
   display: inline-block;
   width: 100%;
 }
@@ -168,7 +168,7 @@ nav ul li > a:visited {
   width: 100%;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
   header {
     text-align: unset;
     padding: 20px 0 13px;
@@ -192,6 +192,18 @@ nav ul li > a:visited {
     content: "";
     clear: both;
     display: table;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+  nav > ul {
+    margin: 1em 0;
   }
 }
 
@@ -286,4 +298,38 @@ svg .cloud-2 {
 svg .cloud-3 {
   animation: move-3 10s infinite reverse;
   fill: rgb(0, 153, 255);
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle,
+.navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.navtoggle.responsive li {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 127, 80, 0.5);
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
 }
