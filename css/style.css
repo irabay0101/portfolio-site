@@ -96,7 +96,7 @@ a:active {
 
 header {
   background-color: #fbbdbc;
-  padding: 10px;
+  padding: 10px 0;
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
@@ -166,6 +166,40 @@ nav ul li > a:visited {
   padding: 20px 0px;
   display: inline-block;
   width: 100%;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle,
+.navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  color: rgba(50, 50, 50, 0.75);
+}
+
+.navtoggle.responsive li {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 127, 80, 0.5);
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
 }
 
 @media only screen and (min-width: 641px) {
@@ -298,38 +332,4 @@ svg .cloud-2 {
 svg .cloud-3 {
   animation: move-3 10s infinite reverse;
   fill: rgb(0, 153, 255);
-}
-
-.navtoggle li:not(:last-child) {
-  display: none;
-}
-
-.navtoggle,
-.navtoggle.responsive {
-  position: relative;
-}
-
-.navtoggle li .icon {
-  position: absolute;
-  right: 0;
-  top: 2px;
-  font-size: 20px;
-  padding-right: 0;
-}
-
-.navtoggle.responsive li {
-  display: block;
-}
-
-.navtoggle.responsive nav {
-  padding: 24px 0 0;
-}
-.navtoggle.responsive li {
-  display: block;
-  padding: 10px 0;
-  border-top: 1px solid rgba(255, 127, 80, 0.5);
-}
-
-.navtoggle.responsive li:last-child {
-  padding: 0 0 10px;
 }
