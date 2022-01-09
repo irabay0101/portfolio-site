@@ -68,7 +68,7 @@ a:active {
 
 .button {
   display: inline-block;
-  background-color: #fededd;
+  background-color: #fee3e2;
   color: #000000; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
@@ -160,7 +160,7 @@ nav ul li > a:visited {
 }
 
 #hero {
-  background-color: #fbbdbc;
+  background-color: #ffffff;
   text-align: center;
   margin: 0;
   padding: 20px 0px;
