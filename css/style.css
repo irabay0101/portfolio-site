@@ -282,7 +282,7 @@ svg .st3 {
 }
 
 .descWrapper {
-  padding: 20px;
+  padding-left: 20px;
 }
 
 @keyframes move-1 {
