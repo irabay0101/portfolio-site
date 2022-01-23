@@ -202,6 +202,15 @@ nav ul li > a:visited {
   padding: 0 0 10px;
 }
 
+.imagewrapper {
+  width: 200px;
+  margin: auto;
+}
+
+.customwidth {
+  width: 675px;
+}
+
 @media only screen and (min-width: 641px) {
   header {
     text-align: unset;
@@ -283,6 +292,30 @@ svg .st3 {
 
 .descWrapper {
   padding-left: 20px;
+}
+
+.descWrapper h3 {
+  margin-top: 0;
+}
+
+.icon-logo {
+  width: auto;
+  margin-left: 10px;
+}
+
+.contactWrapper {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.skype {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.footerWrapper {
+  margin-left: 15px;
 }
 
 @keyframes move-1 {

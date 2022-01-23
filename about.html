@@ -83,13 +83,15 @@
           <div class="row"></div>
           <h1>About me</h1>
           <div class="row"></div>
-          <picture>
-            <source
-              srcset="./img/about-me-photo-600x600.png"
-              media="(max-width:767px)"
-            />
-            <img src="./img/about-me-photo-675x675.png" alt="My Image" />
-          </picture>
+          <div class="imagewrapper customwidth">
+            <picture>
+              <source
+                srcset="./img/about-me-photo-600x600.png"
+                media="(max-width:767px)"
+              />
+              <img src="./img/about-me-photo-675x675.png" alt="My Image" />
+            </picture>
+          </div>
           <div>
             <div>
               <div class="row"></div>
@@ -128,7 +130,10 @@
                 fun and diverse environment and values its team.
               </p>
               <div class="row"></div>
-              <a href="./files/irabay-uid-resume.pdf" target="_blank"
+              <a
+                href="./files/irabay-uid-resume.pdf"
+                class="button"
+                target="_blank"
                 >See my resume</a
               >
               <div class="row"></div>
@@ -159,18 +164,19 @@
       </div>
     </main>
 
-    <footer class="container" id="contact">
-      <div class="container">
+    <footer id="contact" class="container">
+      <div class="footerWrapper">
         <h2>Get in touch</h2>
         <p>
           Do you like my work and want to discuss opportunities? Please get in
-          touch. Skype: <a href="skype:irabay0101">irabay0101</a>
+          touch.
         </p>
-        <div>
+        <div class="contactWrapper">
+          Skype: <a href="skype:irabay0101" class="skype">irabay0101</a>
           <a href="mailto:irabay.uid@gmail.com">Email me</a>
           <a href="https://www.linkedin.com/in/ingridrabay/" target="_blank"
             ><img
-              class="logo"
+              class="icon-logo"
               src="./img/linkedin-icon.svg"
               width="22"
               height="22"
@@ -178,7 +184,7 @@
           /></a>
         </div>
       </div>
-      <div>
+      <div class="footerWrapper">
         <p>Copyright Ingrid Rabay 2021</p>
       </div>
     </footer>
